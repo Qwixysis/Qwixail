@@ -1,0 +1,110 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Темный фон */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+/* Панель навигации */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a; /* Темный фон для панели */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.download-btn {
+    background-color: #333; /* Темно-серый фон для кнопки */
+    color: #fff;
+    border: none;
+    padding: 14px 35px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #555; /* Цвет кнопки при наведении */
+}
+
+/* Основной контент */
+.main-content {
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    background-color: #1e1e1e; /* Темный фон для основного контента */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-size: 40px;
+    color: #f0f0f0; /* Светлый цвет для заголовка */
+}
+
+.description {
+    font-size: 20px;
+    color: #dcdcdc; /* Светлый цвет для описания */
+    margin-top: 10px;
+}
+
+/* Блок с историей создания */
+.history-box {
+    background-color: #1a1a1a; /* Темный фон для блока истории */
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.history-box h2 {
+    font-size: 26px;
+    color: #f0f0f0; /* Светлый цвет для заголовка */
+}
+
+.history-box p {
+    font-size: 18px;
+    color: #b0b0b0; /* Светлый цвет для текста */
+    line-height: 1.6;
+}
+
+/* Контактная информация */
+.contact-info {
+    text-align: center;
+    margin-top: 70px;
+    padding: 25px;
+    background-color: #1a1a1a; /* Темный фон для секции контактов */
+    border-top: 2px solid #444; /* Более светлая линия сверху */
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    color: #f0f0f0; /* Светлый цвет для заголовка */
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 18px;
+    color: #b0b0b0; /* Светлый текст для контактных данных */
+    margin: 12px 0;
+}
+
+.contact-info a {
+    color: #007bff; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
